@@ -1,0 +1,11 @@
+{
+    "name": "digitronac/coverage-checker",
+    "description": "coverage checker",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/digitronac/coverage-checker"
+        }
+    ],
+    "bin": ["coverage-checker.php"]
+}   
