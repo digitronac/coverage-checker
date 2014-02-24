@@ -12,7 +12,7 @@ if (!$percentage) {
 }
 
 $xml             = new SimpleXMLElement(file_get_contents($inputFile));
-$metrics         = $xml->xpath('//metrics');
+$metrics         = $xml->xpath('//file/metrics');
 $totalElements   = 0;
 $checkedElements = 0;
 
